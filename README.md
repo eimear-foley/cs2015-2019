@@ -1,8 +1,8 @@
-## Computer Science 2 (2016-2017)
+# Computer Science 2 (2016-2017)
 
 Contains course content and laboratory assignments for the following modules:
 
-# Semester I
+#### Semester I
 
 - Intermediate Programming (Python)
 - Operating Systems I
@@ -10,7 +10,7 @@ Contains course content and laboratory assignments for the following modules:
 - Web Servers
 - Alogrithms and Data Structures I
 
-# Semester II
+#### Semester II
 
 - Introduction to Java
 - Operating Systems II
