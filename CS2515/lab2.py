@@ -47,6 +47,13 @@ def nestedAndBalanced(string):
     return correct
 
 def colouredTetris():
+    
+    """A very basic variant of Tetris, in which there is a single stack into which you must place blocks as they arrive. 
+       Each block has a colour. If you place a block of one colour on top of another of the same colour, both blocks disappear.  
+       
+       You can choose to accept or reject a block, and you score 1 point for every matching pair. At the end of the game, 
+       you lose a point for every block still in the stack. If the user takes longer than k seconds to accept or reject a
+       block, then the block is added to the stack anyways."""
 
     block = []
     colours = ['red', 'green', 'blue']
