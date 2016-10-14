@@ -1,8 +1,7 @@
 """Lab 3 - Writing of subclass 'Business' of super class 'Property'
-	Includes:
-		- addition of extra instance variables: companyName, businessType
-		- 'Property' class's getAddress should be overridden to include companyName
-"""
+   Includes:
+	- addition of extra instance variables: companyName, businessType
+	- 'Property' class's getAddress should be overridden to include companyName"""
 
 from property import Property
 
