@@ -49,7 +49,7 @@ class Book(object):
 
     def __str__(self):
 
-        return ("Book Title: %s, Price: %.2f, Author: %s" % (self._title, self._pric$
+        return ("Book Title: %s, Price: %.2f, Author: %s" % (self._title, self._price, self._author))
 
     def getTitle(self):
 
@@ -86,7 +86,7 @@ class eBook(object):
 
     def __str__(self):
 
-        return ("Book Title: %s\nPrice: %.2f\nAuthor: %s\nURL: %s\n" % (self._title,$
+        return ("Book Title: %s\nPrice: %.2f\nAuthor: %s\nURL: %s\n" % (self._title, self._price, self._author, self._url))
 
     def getURL(self):
 
@@ -134,7 +134,7 @@ class RealBook(object):
 
     def __str__(self):
 
-        return ("Book Title: %s\nPrice + Postage: %.2f\nAuthor: %s\n" % (self._title$
+        return ("Book Title: %s\nPrice + Postage: %.2f\nAuthor: %s\n" % (self._title, self._price + self._postage, self._author))
 
     def getPostage(self):
 
@@ -180,3 +180,5 @@ def main_realbook():
 if __name__ == "__main__":
     main_ebook()
     main_realbook()
+    
+    
