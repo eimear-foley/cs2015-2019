@@ -10,3 +10,4 @@ Contains course content and laboratory assignments for the following modules:
 - Operating Systems II *CS2506*
 - Algorithms and Data Structures II *CS2516*
 - Database Design and Administration *CS2501*
+- Network Computing *CS2505*
