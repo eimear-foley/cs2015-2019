@@ -1,0 +1,36 @@
+<?php
+  $conn_id = @mysql_connect (“cs1.ucc.ie”, “ecf1”, “leethaiw”)
+  or exit ();
+  mysql_select_db (“dreamhome”, $conn_id);
+  
+  function staffName($staff_no) {
+    MYSQL_QUERY("SELECR FNAME, LNAME FROM STAFF WHERE SNO = $staff_no")
+    or exit();
+  }
+  
+  if (isset($_POST['staff_no'])){
+    $result = staffName($_POST('staff_no'))
+  }
+?>
+
+<!DOCTYPE html>
+<head>
+  <title>Staff Query</title>
+  <style>
+  </style>
+</head>
+<body>
+  <h3>Return name of staff member by staff number</h3>
+  <br>
+  <form action="" method="post">
+    Staff No.:<br>
+    <input type="text" name="staff_no" value="">
+    <br><br>
+    <input type="submit" value="Get Name">
+  </form>
+  <br>
+  <?php if (isset($result)){ ?>
+    <h3>Result: <?php echo $result ?></h3>
+  <?php }?>
+</body>
+<html>
