@@ -11,3 +11,9 @@ Contains course content and laboratory assignments for the following modules:
 - Algorithms and Data Structures II *CS2516*
 - Database Design and Administration *CS2501*
 - Network Computing *CS2505*
+
+#### Year 3
+
+- Middleware *CS3311*
+- C Programming with Microcontrollers *CS3514*
+- Advanced Java Programming *CS3318*
