@@ -1,0 +1,53 @@
+/*CSS specifically for the category pages of clothing*/
+
+main{
+    background-color: #ffffff;
+    margin-left: auto; /*center main*/
+    margin-right: auto;
+    width: 75%;
+	color: black;
+	padding: 1em;
+}
+
+article{
+	width: 90.5%;
+	background-color: #ffdd57;
+	padding: 1em;
+	margin-left:1.5%;
+}
+
+article h3{
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 20px;
+}
+
+/*aligns image side by side*/
+#items figure.align{
+	float: left;
+        display: block;	
+	width: 30%; 
+	margin-right: 1%;
+	padding: 0.5em;
+	position: relative;
+	height: 411px;
+}
+
+/*image dimensions*/
+#items figure img{
+	height: 370;
+	width: 290;
+}
+
+/*caption alignment*/
+#items figure p{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+/*stops image side by side alignment*/
+#items p{
+	clear: both;
+}
+

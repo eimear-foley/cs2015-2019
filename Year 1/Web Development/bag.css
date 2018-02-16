@@ -1,0 +1,174 @@
+/* CSS specifically for bag.py and updated_bag.py */
+
+main{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main p {
+  color: black;
+}
+
+/* css for bag table */
+main #table {              
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  padding: 1.5em;
+}
+
+/* header of bag */
+main #table #top{
+  text-align: center;
+  background: black;
+}
+
+main #table th{
+  font-weight: bold;
+  padding-bottom: 0.5em; /*space between table headers and table data*/
+  background-color: #ffdd57;  
+}
+
+main #table th, td{
+  height: 20px;
+  padding: 0.5em;  
+}
+
+main #table td, th:first-child{
+  text-align: left;
+  width: 302px;
+}
+
+/* align text in first table datas i.e. of item to left */
+main #table td:first-child p{
+  text-align: left;
+}
+
+main #table td:first-child img{
+  float: left; /*get image to float left and image description to float to the right of the image*/
+  padding-right: 0.5em;
+}
+
+main #table td{
+  border-top: 1px solid black;
+}
+
+main #table td, th:not(first-child){
+  text-align: right;
+  width: 60px;
+}
+
+/* for remove button */
+main #table td:last-child{ 
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+}
+
+
+/* css for pay now button */
+#box{
+  width: 150px;
+  padding: 16px 32px;
+  background: #ffdd57;
+  border-radius: 7px;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 60.5%;
+  text-decoration: none;
+}
+
+#button{
+  font-size: 1em;
+  font-weight: bold;
+  color: black; 
+  text-decoration: none;
+}
+
+/* css for popup on updated_bag.py */
+
+/* sets webpage to fade into darker colour in background */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); 
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* sets the popup to be visible */
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+/* css of popup */
+.pop_up {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+ 
+/* css of header text in popup */
+.pop_up h3 {
+  margin-top: 0;
+  color: black;
+  font-family: 'Century Gothic', sans-serif;
+}
+ 
+/* css of close button in top right corner i.e. the 'X' */
+.pop_up .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* when you hover over the 'X' */
+.pop_up .close:hover {
+  color: #ffdd57;
+}
+
+/* css of content in popup */
+.pop_up .content {
+  max-height: 30%;
+  overflow: auto;
+  color: black;
+}
+
+/* css for remove button */
+#remove{
+  width: 177px;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 16px;
+  background: light gray;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 7px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* when hover on remove button */
+#remove:hover{
+  background: #ffdd57;
+  transition: all 0.8s ease-out;
+}

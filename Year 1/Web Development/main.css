@@ -1,0 +1,142 @@
+/*main css for website i.e footer and header, this css file applies to all webpages on site*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*website background colour, font colour and size*/
+html {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #6a6a5a;
+}
+
+/*top navbar includes bag.py and offers*/
+#top {
+  width:100%;
+  top: 0;
+  background-color: black;
+  padding: 0.5em;
+  color: white;
+}
+
+#top div{
+  width: 94%;
+  background: black;
+}
+
+#top div p {
+  font-weight: 400;
+}
+
+/*my bag link top right hand corner of page*/
+#top a {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 0.5em 1em;
+  border-left: 1px solid white;
+}
+
+header{
+  background-color: #fffffff;
+  padding-top: 1em;
+  width: 100%;
+}
+
+/*centres website logo*/
+header a img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*navbar for website links*/
+#links {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center; /*centers navbar*/
+  border-bottom: 1px solid black;
+}
+
+/*creates outline around items in navbar*/
+#links ul li {
+  display: inline-block;
+  float: none;
+  list-style-type: none;
+  border-right: 1px solid black;
+}
+
+#links ul li:last-child{
+  border-right: none;
+}
+
+/*design of items in navbar*/
+#links ul li a {
+  color: #000000;
+  display: block;
+  font-weight: 500;
+  padding: 0.75em 0.75em;
+  text-decoration: none;
+}
+
+
+/*when mouse hovers over item in navbar*/
+#links ul li a:hover {
+  font-weight: 300;
+  color: #ffcc00;	 
+}
+
+#footer{
+  background: black;
+  color: #fff4e6;
+  padding-top: 1em;
+  height: 180px;
+  width: 100%; 
+  position: relative; 
+  bottom: 0;  /*makes footer stick to bottom of webpage*/
+}
+
+/*center copyright at bottom of page*/
+#footer p{
+  text-align: center;
+}
+
+/*holds info in footer*/
+#footer #footer_table {
+  border: none;
+  background: black;
+  color: #ffffff;
+  padding-left: 1em; /*indent*/
+  padding-bottom: 1em; /*space between table and copyright*/
+}
+
+#footer #footer_table  th{
+  font-weight: 500;
+  padding-bottom: 0.5em; /*space between table headers and table data*/
+  
+}
+
+#footer #footer_table  th, #footer #footer_table td{
+  text-align: left;
+  height: 20px;
+  vertical-align: bottom;
+  width: 150px;
+  padding-right: 1em;
+}
+
+
+#footer #footer_table  td a{
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/*hover over links in footer*/
+#footer #footer_table  td a:hover{
+  color: #ffeb99;
+}

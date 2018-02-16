@@ -1,0 +1,78 @@
+/*CSS specifically for index.html*/
+
+main{
+    background-color: #ffffff;
+    margin-left: auto; /*center main*/
+    margin-right: auto;
+    width: 75%;
+	color: black;
+	padding: 1em;
+}
+
+/* css for design and layout of denim trend offer */
+#denim {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#denim article{
+	width: 90.5%;
+	background-color: #ffdd57;
+	padding: 1em;
+	margin-left: 4%;
+}
+
+#denim article h3{
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 20px;
+}
+
+/*places images side by side*/
+#denim figure.left{
+	float: left;
+    display: block;	
+	width: 30%; 
+	margin-right: 1%; 
+	padding: 0.5em;
+	position: relative;
+}
+
+/*image dimensions*/
+#denim figure.left img{
+	height: 370;
+	width: 290;
+}
+
+#denim figure.left img:first-child{
+	margin-left:11%;
+}
+
+#denim p{
+	clear:both; /*stops images aligning side-by-side*/
+}
+
+/* css for about section of page */
+#about{
+	width: 35%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about p {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+#about h3 {
+	padding: 0.5em;
+	text-align: center;
+	font-weight: 300;
+	text-decoration: overline;
+}
+
+
