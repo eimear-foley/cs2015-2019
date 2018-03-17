@@ -2,6 +2,11 @@
 
 Contains course content and laboratory assignments for the following modules:
 
+#### Year 1
+
+- Systems Organisation II *CS1111*
+- Web Development II *CS1116*
+
 #### Year 2
 
 - Intermediate Programming (Python) *CS2513*
